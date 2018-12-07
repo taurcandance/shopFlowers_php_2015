@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/class_BasketNode.php" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/class_CollectorOrders.php" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/class_Flower.php" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/class_FlowersDbManager.php" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/class_OrdersManager.php" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/class_SiteManager.php" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/class_User.php" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/connection_Db.php" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/flowersDB1.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/handler-butt-delete-in-basket.php" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/handler-loginForm.php" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/handler-quantity-in-basket.php" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/handler-savePersonalArea.php" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/handler-status-basket-ok.php" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/handler-transfer-to-basket.php" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/index.php" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/page_basket.php" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/shared_functions.php" dialect="MySQL" />
+  </component>
+</project>

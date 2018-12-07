@@ -1,0 +1,218 @@
+@media (min-width: 500px) {
+    .container-1, .container-2, .container-3 {
+        display: flex;
+        align-items: stretch;
+        flex-direction: row;
+        text-align: center;
+        font-family: 'Roboto Slab', serif;
+    }
+}
+
+.container-2 {
+    justify-content: inherit;
+    flex-wrap: wrap;
+}
+
+.container-1 div, .container-2 div {
+    height: auto;
+}
+
+.container-3 div {
+    padding: 10px;
+    border: 1px solid silver;
+}
+
+.box_contact_us {
+    flex-basis: 100%;
+    padding: 10px;
+    border: 1px solid silver;
+}
+
+.box_contact_us > h2, h3 {
+    font-size: 20px;
+    height: 100%;
+}
+
+span#box_contact_us_span {
+    text-align: left;
+}
+
+span#small-text {
+    font-size: small;
+}
+
+.box-1 {
+    flex: 0.5;
+    order: 1;
+}
+
+.box-2 {
+    flex: 5;
+    order: 2;
+}
+
+.box-2 > .box {
+    text-align: left;
+}
+
+.box-3 {
+    flex: 1;
+    order: 3;
+}
+
+.box-4 {
+    flex: 1;
+    order: 4;
+}
+
+.box-5 {
+    flex: 1;
+    order: 5;
+}
+
+.box {
+    flex-basis: auto;
+    border: 1px solid silver;
+    height: 50%;
+}
+
+.box-2 > .box {
+    text-align: center;
+}
+
+.box-name {
+    flex-basis: auto;
+    padding: 10px;
+    border: 10px solid silver;
+}
+
+.box-summ {
+    flex: 7;
+    order: 1;
+    padding: 10px;
+    text-align: right;
+}
+
+.box-summ-num {
+    flex: 1;
+    order: 2;
+    padding: 10px;
+}
+
+.box-summ1 {
+    flex: 2;
+    order: 1;
+    padding: 10px;
+    text-align: left;
+}
+
+.box-summ-num1 {
+    flex: 8;
+    order: 2;
+    padding: 10px;
+}
+
+.container-3 > .box-summ-num1 {
+    padding: 0px 0px 0px 0px;
+}
+
+.container-4 {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    text-align: center;
+}
+
+.box_push1 {
+    flex: 7;
+    padding: 10px;
+    border: 1px solid silver;
+    text-align: right;
+}
+
+.box_push2 {
+    flex: 3;
+    padding: 10px;
+    border: 1px solid silver;
+    text-align: center;
+}
+
+input#confirm {
+    width: 100%;
+    height: 100%;
+    font-size: x-large;
+    text-align: center;
+    cursor: pointer;
+}
+
+.but_up {
+    background-image: url(/images/icon/count_up_down/up.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 14px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.but_down {
+    background-image: url(/images/icon/count_up_down/down.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 14px;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.but_del {
+    background-image: url(/images/icon/count_up_down/del.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 14px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+span.but_del {
+    margin-left: 5px;
+}
+
+.box > h3 {
+    font-size: 20px;
+    height: 25px;
+}
+
+.box > h3 {
+    font-size: 20px;
+    height: 25px;
+}
+
+.container-1 > h3 {
+    font-size: 20px;
+    height: 25px;
+}
+
+.box-summ-num1 > h3 {
+    height: 40px;
+}
+
+span#num_order_span {
+    font-size: small;
+}
+
+.container-3 > .box-summ-num1 > h3 {
+    padding: 0;
+}
+
+input#user_source {
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+}
